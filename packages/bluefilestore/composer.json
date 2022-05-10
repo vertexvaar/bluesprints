@@ -1,0 +1,24 @@
+{
+	"name": "vertexvaar/bluefilestore",
+	"description": "BlueMysqlStore allows using a MySQL database as backend for models",
+	"type": "project",
+	"license": "GPL-3.0+",
+	"authors": [
+		{
+			"name": "Oliver Eglseder",
+			"email": "bluesprints@vxvr.de",
+			"homepage": "http://vxvr.de/",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"VerteXVaaR\\BlueFileStore\\": "src/"
+		}
+	},
+	"require": {
+		"ext-pdo_mysql": "*",
+		"co-stack/lib": "v4.4.0",
+		"ext-json": "*"
+	}
+}
