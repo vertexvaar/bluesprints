@@ -7,7 +7,12 @@
 actor: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser:
-            url: http://localhost/
+        - WebDriver:
+            url: https://ddev-bluesprints-web/
+            browser: chrome
+            host: selenium-chrome
+            capabilities:
+                chromeOptions:
+                    args: [ "--ignore-certificate-errors", "--disable-notifications" ]
         - \VerteXVaaR\BlueDistTest\Helper\Acceptance
 step_decorators: ~

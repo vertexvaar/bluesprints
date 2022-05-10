@@ -17,8 +17,10 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0 <8.2",
+        "ext-json": "*",
         "vertexvaar/bluesprints": "@dev",
-        "vertexvaar/bluefluid": "@dev"
+        "vertexvaar/bluefluid": "@dev",
+        "vertexvaar/bluemysqlstore": "@dev"
     },
     "autoload": {
         "psr-4": {
@@ -28,6 +30,7 @@
     "require-dev": {
         "codeception/codeception": "^4.1",
         "codeception/module-phpbrowser": "^1.0.0",
-        "codeception/module-asserts": "^1.0.0"
+        "codeception/module-asserts": "^1.0.0",
+        "codeception/module-webdriver": "^1.0.0"
     }
 }
