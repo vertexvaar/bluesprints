@@ -1,5 +1,6 @@
 <?php
 
+namespace VerteXVaaR\BlueDistTest;
 
 /**
  * Inherited Methods
