@@ -18,7 +18,7 @@ The "require" way (uses BlueSprints only as library, no example app):
 
 open http://localhost:8000 in your favorite browser
 
-## Problems ?
+## Problems?
 
 You might find some help in the documentation (especially if you get exceptions). If you did not find what you were
 searching for you can open a question issue on github.
