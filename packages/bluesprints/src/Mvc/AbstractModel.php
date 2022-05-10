@@ -11,10 +11,7 @@ use VerteXVaaR\BlueSprints\Utility\Files;
 use VerteXVaaR\BlueSprints\Utility\Folders;
 use VerteXVaaR\BlueSprints\Utility\Strings;
 
-/**
- * Class AbstractModel
- */
-class AbstractModel
+abstract class AbstractModel
 {
     /** @var string[] */
     static private array $classFolders = [];
