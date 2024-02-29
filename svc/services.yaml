@@ -1,0 +1,19 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  VerteXVaaR\BlueSprints\:
+    resource: '../src/*'
+
+  VerteXVaaR\BlueSprints\Environment\Environment:
+    public: true
+    shared: true
+
+  Psr\SimpleCache\CacheInterface: '@VerteXVaaR\BlueSprints\Cache\Cache'
+
+  VerteXVaaR\BlueSprints\Cache\Cache:
+    public: true
+    shared: true
+
+  VerteXVaaR\BlueSprints\Store\Store: '@VerteXVaaR\BlueSprints\Store\FileStore'
